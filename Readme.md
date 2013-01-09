@@ -20,7 +20,7 @@ fn(user);
 
 ```js
 
-var _ = require('..');
+var _ = require('to-function');
 
 var users = [
   { name: { first: 'Tobi' }},
@@ -37,7 +37,7 @@ console.log(short);
 ### Equality
 
 ```js
-var _ = require('..');
+var _ = require('to-function');
 
 var tobi = { name: { first: 'Tobi' }, age: 2 };
 var loki = { name: { first: 'Loki' }, age: 2 };
@@ -69,7 +69,7 @@ console.log(oldPets);
 ### Regular expressions
 
 ```js
-var _ = require('..');
+var _ = require('to-function');
 
 var users = [
   'Tobi',
@@ -86,7 +86,7 @@ console.log(t);
 ### Nesting
 
 ```js
-var _ = require('..');
+var _ = require('to-function');
 
 var users = [
   { name: { first: 'Tobi', last: 'Ferret' }, age: 2 },
